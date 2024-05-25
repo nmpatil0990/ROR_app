@@ -43,14 +43,7 @@ Rails.application.configure do
   # Use this on the cloud IDE.
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    address: 'smtp.gmail.com',
-    port: 587,
-    user_name: 'nmpatil0990@gmail.com',
-    password: 'aywo akdl wwlh gjwg',
-    authentication: 'plain',
-    enable_starttls_auto: true
-  }
+  
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
   # Use this if developing on localhost.
   # config.action_mailer.default_url_options = { host: host, protocol: 'http' }
